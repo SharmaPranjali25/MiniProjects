@@ -1,1 +1,0 @@
-Sneakers store CSS/html
