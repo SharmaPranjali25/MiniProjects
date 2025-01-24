@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* this is flex-container */
+.container{
+    width:100vw;
+    height:100vh;
+    overflow-x: hidden;
+
+}
+/* this is flex-item */
+.store{  
+    margin:auto;
+    min-height:100%;
+    /* after giving this it is overflowing in x-direaction so we change that in container */
+    width:60%;
+    /* background-color:violet; */
+    /* bring this one to center */
+}
+
+h1{
+    /* border: 1px solid black;  */
+    font-size:60px;
+    text-align: center;
+    /* to get space we go for box model */
+    padding:30px;   
+
+}
+
+.shoes{
+    width:100%;
+    height:100%;
+}
+.card{
+    border-radius:30px ;
+    /* border:1px solid black; */
+    width:30%;
+    height:100%;
+    padding:10px;
+    box-shadow: 7px 7px 10px rgb(201,201,201);
+}
+.image{
+    width:100%;
+    height:350px;
+
+}  
+
+.image > img{
+    border-radius:20px ;
+    width:100%;
+    height:100%;
+    /* object-fit:cover; */
+}
