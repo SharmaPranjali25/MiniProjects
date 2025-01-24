@@ -1,1 +1,1 @@
-Mini Projects of Tailwind concept
+Sneakers store CSS/html
